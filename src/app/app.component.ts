@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nebular';
+
+  companies : any[] = [
+    {
+      "name" : "virtuvizon"
+    },
+    {
+      "name" : "virtusoft"
+    },
+    {
+      "name" : "virtusia"
+    },
+    {
+      "name" : "Tamatech"
+    },
+    {
+      "name" : "DDS"
+    }
+  ]
 }
